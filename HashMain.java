@@ -1,12 +1,12 @@
 public class HashMain {
     public static void main(String[] args) {
-        HashMap hash = new HashMap(3);
+        HashMapOne hash = new HashMapOne(3);
         hash.put(4, "Francis");
         hash.put(5, "Hassan");
         hash.put(8, "Hass");
         hash.remove(4);
-        // System.out.println(hash.get(4));
-        System.out.println(hash.size());
+        System.out.println(hash.get(4));
+        System.out.println(hash);
 
 
 
