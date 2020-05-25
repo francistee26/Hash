@@ -65,7 +65,7 @@ public class HashMapOne {
             if (entry == null || entry.key == key)
                 return index;
         }
-        return -1;
+        return -1;    
     }
 
     public int size() {

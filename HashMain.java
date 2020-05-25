@@ -6,7 +6,7 @@ public class HashMain {
         hash.put(8, "Hass");
         hash.remove(4);
         System.out.println(hash.get(4));
-        System.out.println(hash);
+        System.out.println(hash);    
 
 
 
